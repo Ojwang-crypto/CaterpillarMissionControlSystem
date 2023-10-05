@@ -268,13 +268,13 @@ public class CaterpillarControlSystem
 
     public void Run()
     {
-        Console.WriteLine("Caterpillar Control System - Mission on a Distant Planet");
+        Console.WriteLine("Planet Mission Control Station - Caterpillar Control System");
         Console.WriteLine("Use the following commands to control the caterpillar:");
         Console.WriteLine("U - Move up");
         Console.WriteLine("D - Move down");
         Console.WriteLine("L - Move left");
         Console.WriteLine("R - Move right");
-        Console.WriteLine("Enter commands (e.g., 'L 4' to move Left 4 steps):");
+        Console.WriteLine("Enter commands (Example., 'L 4' to move Left 4 steps):");
 
         while (caterpillarLength > 0)
         {
@@ -316,12 +316,12 @@ public class CaterpillarControlSystem
                     }
                     else
                     {
-                        Console.WriteLine("Invalid command format. Please use 'U/D/L/R <steps>', 'Undo', or 'Redo'.");
+                        Console.WriteLine("Invalid command format. Please use 'U/D/L/R <steps>'");
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Invalid command format. Please use 'U/D/L/R <steps>', 'Undo', or 'Redo'.");
+                    Console.WriteLine("Invalid command format. Please use 'U/D/L/R <steps>'");
                 }
             }
         }
