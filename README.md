@@ -1,1 +1,2 @@
 # CaterpillarMissionControlSystem
+The provided C# code represents a Caterpillar Control System, a program that simulates the control of a caterpillar robot on a distant planet. The caterpillar robot explores the planet's surface and collects resources (spice and boosters) while avoiding obstacles. Users can input commands to control the caterpillar's movement, and the program maintains a log for undo and redo operations
